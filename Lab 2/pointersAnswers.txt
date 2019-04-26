@@ -1,0 +1,36 @@
+1st type - 
+x = 5
+y = 15
+p1 = address of x (value - 5)
+p2 = address of some junk value (value - junk)
+
+2nd type - 
+x = 5
+y = 15
+p1 = address of x (value - 5)
+p2 = address of y (value - 15)
+
+3rd type - 
+x = 6
+y = 16
+p1 = address of x (value - 6)
+p2 = address of y (value - 15)
+
+4th type - 
+x = 15
+y = 15
+p1 = address of x (value - 15)
+p2 = address of y (value - 15)
+
+5th type - 
+x = 15
+y = 15
+p1 = address of x (value - 15)
+p2 = address of x (value - 15)
+
+6th type - 
+x = 25
+y = 15
+p1 = address of x (value - 25)
+p2 = address of x (value - 25)
+
