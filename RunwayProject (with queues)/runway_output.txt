@@ -1,0 +1,187 @@
+Enter :
+Time for a plane to land (in minutes): 2
+Time for a plane to takeOff (in minutes) : 2
+Landing rate (planes per hour) : 10
+TakeOff rate (planes per hour) : 12
+How long to run the simulation (in minutes) : 10
+
+Time : 1
+Flight 1000 wants to land; added to landing queue; 1 in queue
+Flight 1001 wants to takeOff; added to takeOff queue; 1 in queue
+Landing Flight : 1000
+
+Time : 2
+Flight 1002 wants to takeOff; added to takeOff queue; 2 in queue
+
+Time : 3
+Flight 1003 wants to takeOff; added to takeOff queue; 3 in queue
+Landing complete; 0 in queue
+
+Time : 4
+Flight 1004 wants to takeOff; added to takeOff queue; 4 in queue
+Flight : 1001 taking off
+
+Time : 5
+
+
+!!!!!!!!!!!!!!!!!!!Runway 2 has unfortunately shut down because of an accident on the runway!!!!!!!!!!!!!!!!!!!
+All landings and takeOffs being moved to Runway 1
+
+
+Updated number of planes in landing queue : 5
+Updated number of planes in takeOff queue : 6
+Flight 1005 wants to land; added to landing queue; 6 in queue
+Flight 1006 wants to takeOff; added to takeOff queue; 7 in queue
+
+Time : 6
+Flight 1007 wants to takeOff; added to takeOff queue; 8 in queue
+TakeOff complete; 8 in queue
+
+Time : 7
+Landing Flight : 1000
+
+Time : 8
+Flight 1008 wants to land; added to landing queue; 6 in queue
+Flight 1009 wants to takeOff; added to takeOff queue; 9 in queue
+
+Time : 9
+Flight 1010 wants to land; added to landing queue; 7 in queue
+Landing complete; 7 in queue
+
+Time : 10
+Landing Flight : 1001
+No new landings or takeoffs will be generated!
+
+Time : 11
+
+Time : 12
+Landing complete; 6 in queue
+
+Time : 13
+Landing Flight : 1002
+
+Time : 14
+
+Time : 15
+Landing complete; 5 in queue
+
+Time : 16
+Landing Flight : 1003
+
+Time : 17
+
+Time : 18
+Landing complete; 4 in queue
+
+Time : 19
+Landing Flight : 1004
+
+Time : 20
+
+Time : 21
+Landing complete; 3 in queue
+
+Time : 22
+Landing Flight : 1005
+
+Time : 23
+
+Time : 24
+Landing complete; 2 in queue
+
+Time : 25
+Landing Flight : 1008
+
+Time : 26
+
+Time : 27
+Landing complete; 1 in queue
+
+Time : 28
+Landing Flight : 1010
+
+Time : 29
+
+Time : 30
+Landing complete; 0 in queue
+
+Time : 31
+Flight : 1002 taking off
+
+Time : 32
+
+Time : 33
+TakeOff complete; 8 in queue
+
+Time : 34
+Flight : 1003 taking off
+
+Time : 35
+
+Time : 36
+TakeOff complete; 7 in queue
+
+Time : 37
+Flight : 1004 taking off
+
+Time : 38
+
+Time : 39
+TakeOff complete; 6 in queue
+
+Time : 40
+Flight : 1005 taking off
+
+Time : 41
+
+Time : 42
+TakeOff complete; 5 in queue
+
+Time : 43
+Flight : 1006 taking off
+
+Time : 44
+
+Time : 45
+TakeOff complete; 4 in queue
+
+Time : 46
+Flight : 1007 taking off
+
+Time : 47
+
+Time : 48
+TakeOff complete; 3 in queue
+
+Time : 49
+Flight : 1006 taking off
+
+Time : 50
+
+Time : 51
+TakeOff complete; 2 in queue
+
+Time : 52
+Flight : 1007 taking off
+
+Time : 53
+
+Time : 54
+TakeOff complete; 1 in queue
+
+Time : 55
+Flight : 1009 taking off
+
+Time : 56
+
+Time : 57
+TakeOff complete; 0 in queue
+
+
+
+Summary : 
+Max number of planes in landing queue : 9
+Average minutes spent waiting to land : 6.44444
+Max number of planes in takeoff queue : 10
+Average minutes spent waiting to takeOff : 5.8
+End Program!

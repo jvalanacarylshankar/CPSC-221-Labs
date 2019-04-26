@@ -1,0 +1,33 @@
+Queue created.  Empty? true
+How many elements to add to the queue? 5
+Contents of queue q1 (via  print):
+100  200  300  400  500  
+
+Contents of queue q2 after q2 = q1 (via  print):
+100  200  300  400  500  
+
+Queue q2 empty? false
+Front value in q2: 100
+Remove front -- Queue contents: 200  300  400  500  
+Remove front -- Queue contents: 300  400  500  
+Remove front -- Queue contents: 400  500  
+Remove front -- Queue contents: 500  
+Remove front -- Queue contents: 
+Queue q2 empty? true
+Front value in q2?
+0
+Trying to remove front of q2: 
+*** Queue is empty -- can't remove a value ***
+Contents of queue q1 (via  print):
+100  200  300  400  500  
+
+How many elements to add to the queue2? 5
+Contents of queue q2 (via  print):
+200  400  600  800  1000  
+
+Contents of q1 after merge_two_queues (via print):
+100  200  200  300  400  400  500  600  800  1000  
+
+Queue q2 empty after merge_two_queues? true
+Contents of q1 after move_to_front (moving 500 to front):
+500  100  200  200  300  400  400  600  800  1000
