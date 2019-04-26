@@ -1,1 +1,1 @@
-# CPSC-221-Labs
+# CPSC-221-Labs-And-Projects
